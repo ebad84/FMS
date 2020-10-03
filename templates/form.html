@@ -1,0 +1,33 @@
+<!DOCTYPE html><!--
+	Copyright (c) 2014-2020, CKSource - Frederico Knabben. All rights reserved.
+	This file is licensed under the terms of the MIT License (see LICENSE.md).
+-->
+
+<html lang="en" dir="ltr"></html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="https://c.cksource.com/a/1/logos/ckeditor5.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body data-editor="ClassicEditor" data-collaboration="false">
+	<main>
+		<div class="centered">
+			<div class="row row-editor">
+				<form method="post" action="check">
+					<textarea name="head" placeholder="head tag"></textarea><br/>
+					<textarea name="body_attr" placeholder="body attrs"></textarea><br/>
+					<textarea class="editor" name="body_tag">
+
+					</textarea><br/>
+					<textarea name="scripts" placeholder="scripts here"></textarea>
+					<input type="submit" value="check">
+				</form>
+			</div>
+		</div>
+	</main>
+	<script src="https://cdn.ckeditor.com/ckeditor5/22.0.0/classic/ckeditor.js"></script>
+	<script>ClassicEditor
+			.create( document.querySelector( '.editor' ))
+	</script>
+</body>
