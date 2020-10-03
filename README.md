@@ -11,6 +11,12 @@ git clone https://github.com/ebad84/FMS.git
 pip3 install requierments.txt
 ```
 
+upload the file "*php/index.php*" in your host and copy that url
+
+open config.json and set your url in "email_host_url" in file.
+
+now you can use this tool :)
+
 ## running
 
 if you wanna to use YOUR template, just run the sender.py
